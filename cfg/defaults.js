@@ -22,9 +22,13 @@ function getDefaultModules() {
         test: /\.scss/,
         loader: 'style-loader!css-loader!postcss-loader!sass-loader?outputStyle=expanded'
       },
+      //{
+      //  test: /\.less/,
+      //  loader: 'style-loader!css-loader!postcss-loader!less-loader'
+      //},
       {
-        test: /\.less/,
-        loader: 'style-loader!css-loader!postcss-loader!less-loader'
+        test: /\.less$/,
+        loader: 'style-loader!css-loader!autoprefixer-loader!less-loader'
       },
       {
         test: /\.styl/,
@@ -37,10 +41,6 @@ function getDefaultModules() {
       {
         test: /\.(mp4|ogg|svg)$/,
         loader: 'file-loader'
-      },
-      {
-        test: /\.json$/,
-        loader: 'json-loader'
       }
     ]
   };
