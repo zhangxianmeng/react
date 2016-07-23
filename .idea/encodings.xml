@@ -8,9 +8,7 @@
     <file url="file://$PROJECT_DIR$/src/config/base.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/config/test.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/index.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/myComponents/Main.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/styles/App.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/styles/main.less" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/styles/main.scss" charset="UTF-8" />
   </component>
 </project>

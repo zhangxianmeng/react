@@ -1,0 +1,45 @@
+angular文档
+https://material.angularjs.org/latest/demo/input
+
+angular视频
+http://www.imooc.com/learn/156
+
+git 地址： http://git.wang-guanjia.com
+
+http://www.cnblogs.com/xing901022/p/4291521.html
+
+React、Polymer、VirtualDom、ES6、ES7、NodeWebkit
+
+http://www.angularui.cn/
+
+http://docs.ngnice.com/api
+
+www.ngnice.com
+
+表单的本地校验和远程校验
+http://damoqiongqiu.iteye.com/blog/1920191
+http://damoqiongqiu.iteye.com/blog/1920993
+
+
+react/////////////////////////
+https://github.com/xiashan17/SPA-FLUX
+http://www.ruanyifeng.com/blog/2015/03/react.html
+http://materliu.github.io/gallery-by-react/
+
+
+基于yoman的webpack与react环境安装
+安装yoman: npm install -g yo
+进入磁盘：
+generator: npm install -g generator-react-webpack
+     检查: npm ls -g --depth=1 2>/dev/null | grep generator
+
+远程github创建库：react   选用 MiT License
+本地拉取并安装打包： yo react-webpack react
+
+运行项目：npm start || npm run serve
+
+css浏览器前缀处理：npm install autoprefixer-loader --save-dev
+
+webpack -w 实时打包
+webpack -p 代码压缩
+webpack -d 解压缩
